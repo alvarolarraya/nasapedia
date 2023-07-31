@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenedorImagen{
+    margin-top:1%;
+    padding:2%;
+}
+
+
+#apod-image{
+    max-height: 80vh;
+}
+
+#date {
+    border-radius: 20px;
+    border: none;
+    margin-inline: 1%;
+}
+
+.contenedorImagen, .contenedorDescripcion{
+    background-color: black;
+    padding: 1%;
+}
+
+.btn {
+    color: rgb(255, 255, 255) !important;
+    background: #117b8b !important;
+    border: none !important;
+}
+
+.btn:hover{
+    background: #1593a7 !important;
+}
+
+@media (max-width: 774px) {
+    img{
+        width: 95%;
+        height: auto;
+    }
+}

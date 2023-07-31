@@ -1,0 +1,39 @@
+*{
+    color:white;
+}
+
+select{
+    background-color: black;
+}
+
+h1{
+    display:grid;
+    justify-content: center;
+    margin: 0;
+    font-size: 8vw;
+}
+
+label{
+    margin:0;
+    display : inline;
+}
+
+form{
+    display:grid;
+    justify-content: center;
+}
+
+#canvas{
+    margin:auto;
+    height: 80%;
+    width: 80%;
+    display:block;
+}
+
+canvas {
+    margin-bottom: 2%;
+}
+
+body{
+    background-image: var(--bs-gradient);
+}

@@ -1,0 +1,77 @@
+body {
+}
+
+.carousel-item,
+.row {
+    width: 100%;
+    height: 80%;
+}
+
+.carousel-item {
+    padding: 1%;
+}
+
+.col-md-6 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h2,
+.nombreCuerpoCeleste {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+
+.more-info {
+    margin-block: 1%;
+    text-align: center;
+}
+
+.carousel-inner {
+    overflow: auto;
+    height: 70%;
+}
+
+.card-body {
+    height: auto;
+    background: #f003;
+    margin-bottom: 2%;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.bd-example {
+    background-color: black;
+}
+
+.carousel-control-prev:hover {
+    background: #ffffff24;
+    background: linear-gradient(90deg, #ffffff27,#ffffff05);
+}
+
+.carousel-control-next:hover {
+    background: #ffffff24;
+    background: linear-gradient(90deg,#ffffff05, #ffffff27);
+}
+
+.descripcion{
+    font-size: large;
+}
+
+@media (max-width: 774px) {
+    .descripcion, .contenedorDescripcion {
+        display: none;
+    }
+}
+
+@media (min-width: 774px) {
+    .more-info, .descripcionParaMobil {
+        display: none;
+    }
+}

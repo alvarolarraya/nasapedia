@@ -1,0 +1,13 @@
+.navbar{
+    position:relative!important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover{
+    text-decoration: underline !important;
+    background: #2c3136 !important;
+    border-radius: 5px !important;
+}
